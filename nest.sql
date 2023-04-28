@@ -76,7 +76,7 @@ CREATE TABLE `install`  (
 -- ----------------------------
 INSERT INTO `install` VALUES ('adminGoogle', 'ZVZBZZYZCZZORZ4Z', '管理者谷歌验证码');
 INSERT INTO `install` VALUES ('adminLoginToken', '123456', '管理者登录token');
-INSERT INTO `install` VALUES ('adminMail', '123456@qq.com', '邮件接收者');
+INSERT INTO `install` VALUES ('adminMail', '1912003473@qq.com', '邮件接收者');
 INSERT INTO `install` VALUES ('adminPhone', '123456', '管理者账号');
 INSERT INTO `install` VALUES ('adminToken', '123456', '管理者token');
 INSERT INTO `install` VALUES ('apiLiliKey', '123456', '机器人 丽丽 key');
@@ -91,16 +91,16 @@ INSERT INTO `install` VALUES ('cdnMuiCss', 'https://lib.baomitu.com/mui/3.7.1/cs
 INSERT INTO `install` VALUES ('cdnMuiJs', 'https://lib.baomitu.com/mui/3.7.1/js/mui.min.js', 'cdn mui js');
 INSERT INTO `install` VALUES ('cdnXssJs', 'https://cdn.jsdelivr.net/npm/xss@1.0.6/dist/xss.min.js', 'cdn xss js');
 INSERT INTO `install` VALUES ('firstAdminMessage', '欢迎访问，欢迎观看，欢迎留言', '首页 站长留言');
-INSERT INTO `install` VALUES ('firstContactQQ', '2736629976', '首页 联系QQ');
-INSERT INTO `install` VALUES ('firstCopyRight', 'CopyRight © 2015-', '首页 版权');
-INSERT INTO `install` VALUES ('firstKeywords', '我们的小窝,冯芸霄,张圣晨', '首页 关键字');
-INSERT INTO `install` VALUES ('firstLoveDay', '11', '首页 相爱日期');
-INSERT INTO `install` VALUES ('firstLoveMonth', '11', '首页 相爱月份');
-INSERT INTO `install` VALUES ('firstLoveYear', '2015', '首页 相爱年份');
-INSERT INTO `install` VALUES ('firstTimeLove', '2015-11-11', '首页 相爱时间');
+INSERT INTO `install` VALUES ('firstContactQQ', '1912003473', '首页 联系QQ');
+INSERT INTO `install` VALUES ('firstCopyRight', 'CopyRight © 2023-', '首页 版权');
+INSERT INTO `install` VALUES ('firstKeywords', '我们的小窝,卞佳骏,魏昕妍', '首页 关键字');
+INSERT INTO `install` VALUES ('firstLoveDay', '01', '首页 相爱日期');
+INSERT INTO `install` VALUES ('firstLoveMonth', '02', '首页 相爱月份');
+INSERT INTO `install` VALUES ('firstLoveYear', '2023', '首页 相爱年份');
+INSERT INTO `install` VALUES ('firstTimeLove', '2023-02-01', '首页 相爱时间');
 INSERT INTO `install` VALUES ('firstTimeStampHtml', '1', '首页 缓存版本');
 INSERT INTO `install` VALUES ('firstTitlePrimary', 'Our Small Nest', '首页 标题');
-INSERT INTO `install` VALUES ('firstTitleSecondary', '晨哥 &nbsp; ❤ &nbsp; 芸霄', '首页 副标题');
+INSERT INTO `install` VALUES ('firstTitleSecondary', '小星球 &nbsp; ❤ &nbsp; 小年', '首页 副标题');
 INSERT INTO `install` VALUES ('imageLocalPath', '/home/image/', '图片保存的本地位置');
 INSERT INTO `install` VALUES ('imageQuality', '0.5f', '图片压缩品质');
 INSERT INTO `install` VALUES ('imageSizeMax', '600', '图片最大尺寸');
@@ -164,9 +164,6 @@ CREATE TABLE `link`  (
 -- ----------------------------
 INSERT INTO `link` VALUES ('木子博客', 'https://muuzi.cn', 1);
 INSERT INTO `link` VALUES ('Hello萝莉', 'https://hellololi.com/', 1);
-INSERT INTO `link` VALUES ('木朵爱', 'http://www.muduoai.cn', 1);
-INSERT INTO `link` VALUES ('两个有意思的', 'https://dxq520.cn', 1);
-INSERT INTO `link` VALUES ('纪实小屋', 'https://love109.cn', 1);
 
 -- ----------------------------
 -- Table structure for reply

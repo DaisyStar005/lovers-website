@@ -1,7 +1,6 @@
 package cn.fengyunxiao.nest.dao;
 
 import cn.fengyunxiao.nest.entity.Link;
-import cn.fengyunxiao.nest.entity.Reply;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 import java.util.List;
